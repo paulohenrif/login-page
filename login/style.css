@@ -1,19 +1,22 @@
 @charset "UTF-8";
 
+* {
+    font-family: monospace;
+}
+
 body {
     background-image: url('img/chuva.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-
-    font-family: monspace;
 }
 
 h1 {
     color: white;
     text-align: center;
     padding-bottom: 20px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.24);
 }
 
 div {
