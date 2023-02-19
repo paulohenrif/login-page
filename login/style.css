@@ -26,10 +26,10 @@ div {
 
     transition: 0.3s;
 
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: translate(0%, 40%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
     backdrop-filter: blur(3px);
     
