@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('img/chuva.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+
+    font-family: fantasy;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.342);
+    width: 360px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(105, 105, 105, 0.322);
+
+    transition: 0.3s;
+
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0%, 40%);
+
+    backdrop-filter: blur(3px);
+    
+}
+
+input {
+    background-color: transparent;
+    
+    display: block;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.texto:placeholder-shown {
+    border: none;
+}
+
+.texto:hover {
+    border: 1px solid rgba(255, 255, 255, 0.267);
+    
+}
+
+.texto {
+    border: 1px solid rgba(255, 255, 255, 0.267);
+    font-weight: bolder;
+    
+}
+
+#logar {
+    background-color: rgba(211, 211, 211, 0.582);
+    color: white;
+    font-weight: bolder;
+    width: 100px;
+    height: 30px;
+    margin-top: 60px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
+}
+
+#logar:hover {
+    background-color: rgba(211, 211, 211, 0.849);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.253);
+}
+
+
+
+
+
+#logar:
