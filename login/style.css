@@ -7,7 +7,7 @@ body {
     background-attachment: fixed;
     background-position: center center;
 
-    font-family: fantasy;
+    font-family: monspace;
 }
 
 h1 {
@@ -20,10 +20,8 @@ div {
     background-color: rgba(255, 255, 255, 0.342);
     width: 360px;
     padding: 20px;
-    margin: auto;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(105, 105, 105, 0.322);
-
     transition: 0.3s;
 
     position: absolute;
@@ -32,7 +30,6 @@ div {
     transform: translate(-50%, -50%);
 
     backdrop-filter: blur(3px);
-    
 }
 
 input {
@@ -78,9 +75,3 @@ input {
     background-color: rgba(211, 211, 211, 0.849);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.253);
 }
-
-
-
-
-
-#logar:
