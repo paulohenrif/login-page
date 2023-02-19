@@ -23,16 +23,15 @@ div {
     background-color: rgba(255, 255, 255, 0.342);
     width: 360px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 5px 5px 10px rgba(105, 105, 105, 0.322);
-    transition: 0.3s;
 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(20px);
 }
 
 input {
@@ -49,32 +48,31 @@ input {
     margin-top: 30px;
 }
 
-.texto:placeholder-shown {
-    border: none;
-}
-
 .texto:hover {
-    border: 1px solid rgba(255, 255, 255, 0.267);
-    
+    background-color: rgba(255, 255, 255, 0.267);
+    color: #6b6b6d;
 }
 
 .texto {
     border: 1px solid rgba(255, 255, 255, 0.267);
-    font-weight: bolder;
-    
-}
-
-#logar {
-    background-color: rgba(211, 211, 211, 0.582);
     color: white;
     font-weight: bolder;
+    padding-left: 15px;
+}
+
+#acess {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
     width: 100px;
     height: 30px;
     margin-top: 60px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.144);
+    border: 1px solid rgba(255, 255, 255, 0.205);
 }
 
-#logar:hover {
-    background-color: rgba(211, 211, 211, 0.849);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.253);
+#acess:hover {
+    background-color: rgba(255, 255, 255, 0.11);
+    color: #6b6b6d;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.144);
 }
